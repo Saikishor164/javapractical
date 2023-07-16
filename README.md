@@ -18,7 +18,7 @@ To get started with the code in this repository, follow these steps:
    ```bash
    git clone https://github.com/your-username/javapractical.git
 cd javapractical
-```
+
 2. Open up a terminal and navigate into the project directory using `cd`.
 For example:
 - macOS / Linux
