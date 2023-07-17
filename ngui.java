@@ -18,8 +18,9 @@ public class ngui extends JFrame {
     private JCheckBox sportsCheckBox;
     private JCheckBox musicCheckBox;
 
+
     // Database credentials
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/";
+    private static final String DB_URL = "jdbc:mysql://localhost:3306/mydatabase";
     private static final String USER = "root";
     private static final String PASS = "";
 
