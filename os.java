@@ -38,3 +38,22 @@ public class os{
     }
     
 }
+
+// what is deadlock in Operating System?
+// A deadlock is a situation in which two or more processes are waiting for each other to release a resource that they are holding. This can happen when two processes are both trying to access the same resource, and neither one is willing to give it up.
+
+// Deadlocks can occur in any operating system, but they are more common in multi-threaded programs. This is because threads can share resources, and if two threads are both trying to access the same resource, they can deadlock each other.
+
+// There are several ways to prevent deadlocks. One way is to use a deadlock avoidance algorithm. This algorithm ensures that no two processes can ever be waiting for each other to release a resource. Another way to prevent deadlocks is to use a deadlock detection algorithm. This algorithm detects deadlocks when they occur, and then it takes steps to break the deadlock.
+
+// In Java, there are several ways to prevent deadlocks. One way is to use the synchronized keyword. This keyword ensures that only one thread can access a shared resource at a time. Another way to prevent deadlocks is to use the wait() and notify() methods. These methods allow threads to wait for each other to release a resource.
+
+// If you are writing a multi-threaded program in Java, it is important to be aware of the possibility of deadlocks. There are several tools available to help you prevent deadlocks, such as deadlock avoidance algorithms and deadlock detection algorithms.A deadlock is a situation in which two or more processes are waiting for each other to release a resource that they are holding. This can happen when two processes are both trying to access the same resource, and neither one is willing to give it up.
+
+// Deadlocks can occur in any operating system, but they are more common in multi-threaded programs. This is because threads can share resources, and if two threads are both trying to access the same resource, they can deadlock each other.
+
+// There are several ways to prevent deadlocks. One way is to use a deadlock avoidance algorithm. This algorithm ensures that no two processes can ever be waiting for each other to release a resource. Another way to prevent deadlocks is to use a deadlock detection algorithm. This algorithm detects deadlocks when they occur, and then it takes steps to break the deadlock.
+
+// In Java, there are several ways to prevent deadlocks. One way is to use the synchronized keyword. This keyword ensures that only one thread can access a shared resource at a time. Another way to prevent deadlocks is to use the wait() and notify() methods. These methods allow threads to wait for each other to release a resource.
+
+// If you are writing a multi-threaded program in Java, it is important to be aware of the possibility of deadlocks. There are several tools available to help you prevent deadlocks, such as deadlock avoidance algorithms and deadlock detection algorithms.
