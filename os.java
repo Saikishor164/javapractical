@@ -37,7 +37,7 @@ public class os{
 
     }
     
-}
+ }
 
 // what is deadlock in Operating System?
 // A deadlock is a situation in which two or more processes are waiting for each other to release a resource that they are holding. This can happen when two processes are both trying to access the same resource, and neither one is willing to give it up.
