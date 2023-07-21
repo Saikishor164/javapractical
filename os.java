@@ -70,6 +70,16 @@ public class os{
                                                                 _isExited =flag ;}
                                                                 /**
                                                                  **/
+                                                                class MenuOption{
+                                                                    String name;
+                                                                    int number;
+                                                                    Runnable action;
+                                                                    MenuOption(String n,int num,Runnable act){
+                                                                        public MenuOption(String n,int num,Runnable act){
+                                                                            public MenuOption(String n,int num,Runnable act){
+                                                                                public MenuOption(String n,int num,Runnable act){
+                                                                                    MenuOption(String n,int num,Runnable act){
+                                                                                        
                                                                 
 
 
