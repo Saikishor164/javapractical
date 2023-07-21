@@ -34,6 +34,48 @@ public class os{
                         System.out.println("Invalid input! Please enter valid number between 1 & 4 inclusive!");
                         break;
                         }}
+                        public static void main() throws Exception{
+                            Menu menu=new Menu();
+                            Scanner scanner= new Scanner(System.in);
+                            while(!menu.isExit){
+                                try{
+                                    int choice = Integer.parseInt((scanner.nextLine()));
+                                    if (!menu.isValidChoice(choice))
+                                    throw new IllegalArgumentException("Invalid input, please enter a valid number.");
+                                    throw new IllegalArgumentException("Invalid input!");
+                                    switch (choice) {
+                                        //case statements go here
+                                        case -1://exit
+                                        menu.setExitStatus(true);//setting exit status to true
+                                        return;//returning from the method, which will terminate it's execution
+                                        return;//returning from the method, terminating program execution
+                                        case 0://option A
+                                        //code for optionA goes here
+                                        break;
+                                        case 1://option B
+                                        // code for optionB goes here
+                                        break;
+                                        /* add more cases as needed */
+                                        }
+                                        }catch(NumberFormatException e){
+                                            continue;} catch (IllegalArgumentException ex) {//handling invalid inputs
+                                                System.out.println("\nPlease enter a valid integer value.");
+                                                } catch (IllegalArgumentException ex) {//handling invalid inputs
+                                                    } catch (IllegalArgumentException ex) {
+                                                        System.err.println(ex.getMessage());
+                                                        }}
+                                                        public boolean getExitStatus(){
+                                                            return this._isExited;}
+                                                            private void setExitStatus(boolean flag){
+                                                                _isExited =flag ;}
+                                                                /**
+                                                                 *  
+                                                                 * 
+                                                                 * 
+                                                                 * 
+                                                                 * 
+                                                                 * 
+                                                                 * 
 
     }
     
