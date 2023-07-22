@@ -35,6 +35,7 @@ public class os{
                         break;
                         }}
                         public static void main() throws Exception{
+                            
                             Menu menu=new Menu();
                             Scanner scanner= new Scanner(System.in);
                             while(!menu.isExit){
@@ -77,8 +78,11 @@ public class os{
                                                                     MenuOption(String n,int num,Runnable act){
                                                                         public MenuOption(String n,int num,Runnable act){
                                                                             public MenuOption(String n,int num,Runnable act){
+
                                                                                 public MenuOption(String n,int num,Runnable act){
                                                                                     MenuOption(String n,int num,Runnable act){
+                                                                                        //constructor for menu option object
+                                                                                        //constructor for menu option object
                                                                                         
                                                                 
 
