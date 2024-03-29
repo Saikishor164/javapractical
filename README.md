@@ -1,4 +1,4 @@
-# Java Practical Repository
+ # Java Practical Repository
 
 This repository contains practical exercises and code examples in Java. Each practical exercise is organized into its own directory, and includes a detailed explanation and corresponding code.
 
